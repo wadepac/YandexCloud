@@ -29,3 +29,8 @@ yc compute instance create \
 |image-family=ubuntu-2004-lts | Образ диска |
 |--zone| В какой зоне будет создана  VM |
 |subnet-name=default-ru-central1-a| Виртуальная сеть, в котоую будет подключена VM|
+
+4. Команда для полчения информации о VM
+```
+yc compute instance list
+```
